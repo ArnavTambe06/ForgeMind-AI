@@ -1,0 +1,61 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Uploaded PDFs
+backend/uploads/
+
+# Extracted text
+backend/extracted/
+
+# FAISS index (if you save it later)
+backend/faiss_index/
+
+# HuggingFace cache (optional)
+.cache/
+huggingface/
+
+# Chroma leftovers (if any)
+backend/chroma_db/
+
+# Node (if frontend is inside same repo)
+node_modules/
+
+# React/Vite build
+dist/
+
+# Misc
+*.sqlite3
